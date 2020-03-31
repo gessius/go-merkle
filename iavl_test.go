@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	. "github.com/tendermint/go-common"
-	. "github.com/tendermint/go-common/test"
-	"github.com/tendermint/go-db"
-	"github.com/tendermint/go-wire"
+	. "github.com/intfoundation/go-common"
+	. "github.com/intfoundation/go-common/test"
+	"github.com/intfoundation/go-db"
+	"github.com/intfoundation/go-wire"
 
 	"runtime"
 	"testing"

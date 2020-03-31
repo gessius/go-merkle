@@ -9,8 +9,8 @@ import (
 
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 
-	db "github.com/tendermint/go-db"
-	merkle "github.com/tendermint/go-merkle"
+	db "github.com/intfoundation/go-db"
+	merkle "github.com/intfoundation/go-merkle"
 )
 
 const reportInterval = 100

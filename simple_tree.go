@@ -31,8 +31,8 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	. "github.com/tendermint/go-common"
-	"github.com/tendermint/go-wire"
+	. "github.com/intfoundation/go-common"
+	"github.com/intfoundation/go-wire"
 )
 
 func SimpleHashFromTwoHashes(left []byte, right []byte) []byte {

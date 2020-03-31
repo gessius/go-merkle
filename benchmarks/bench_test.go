@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"testing"
 
-	db "github.com/tendermint/go-db"
-	merkle "github.com/tendermint/go-merkle"
+	db "github.com/intfoundation/go-db"
+	merkle "github.com/intfoundation/go-merkle"
 )
 
 func randBytes(length int) []byte {

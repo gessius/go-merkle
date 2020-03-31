@@ -3,8 +3,8 @@ package merkle
 import (
 	"bytes"
 
-	. "github.com/tendermint/go-common"
-	. "github.com/tendermint/go-common/test"
+	. "github.com/intfoundation/go-common"
+	. "github.com/intfoundation/go-common/test"
 
 	"testing"
 )

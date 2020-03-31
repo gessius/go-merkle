@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	. "github.com/tendermint/go-common"
-	"github.com/tendermint/go-wire"
+	. "github.com/intfoundation/go-common"
+	"github.com/intfoundation/go-wire"
 )
 
 const proofLimit = 1 << 16 // 64 KB

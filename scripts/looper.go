@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	. "github.com/tendermint/go-common"
-	"github.com/tendermint/go-db"
-	"github.com/tendermint/go-merkle"
+	. "github.com/intfoundation/go-common"
+	"github.com/intfoundation/go-db"
+	"github.com/intfoundation/go-merkle"
 )
 
 func main() {

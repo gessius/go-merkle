@@ -5,7 +5,7 @@ There are two types of merkle trees in this module.
 
 ## IAVL+ Tree
 
-**Note** Please make sure you read the [caveat](https://github.com/tendermint/go-merkle/blob/develop/iavl_tree.go#L34-L40) on `Copy`. If you have a backing DB and call `Save` to persist the state, all existing copies become potentially invalid and may panic if used. For safe coding, you must throw away all references upon save, and `Copy` again from the new, committed state.
+**Note** Please make sure you read the [caveat](https://github.com/intfoundation/go-merkle/blob/develop/iavl_tree.go#L34-L40) on `Copy`. If you have a backing DB and call `Save` to persist the state, all existing copies become potentially invalid and may panic if used. For safe coding, you must throw away all references upon save, and `Copy` again from the new, committed state.
 
 The purpose of this data structure is to provide persistent storage for key-value pairs (say to store account balances) such that a deterministic merkle root hash can be computed.  The tree is balanced using a variant of the [AVL algortihm](http://en.wikipedia.org/wiki/AVL_tree) so all operations are O(log(n)).
 

@@ -5,9 +5,9 @@ import (
 	"container/list"
 	"sync"
 
-	. "github.com/tendermint/go-common"
-	dbm "github.com/tendermint/go-db"
-	wire "github.com/tendermint/go-wire"
+	. "github.com/intfoundation/go-common"
+	dbm "github.com/intfoundation/go-db"
+	wire "github.com/intfoundation/go-wire"
 )
 
 /*
